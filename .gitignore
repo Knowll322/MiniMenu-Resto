@@ -1,0 +1,27 @@
+# Konfigurasi lokal
+.env
+.env.local
+.env.*.local
+
+# Log
+*.log
+logs/
+error_log
+
+# Foto menu unggahan (jangan di-commit)
+/uploads/menu/*
+!/uploads/menu/.gitkeep
+
+# Berkas sementara
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
